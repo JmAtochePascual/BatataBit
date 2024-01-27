@@ -303,7 +303,7 @@ a {
 
 .planes__slider {
 	width: 100%;
-	padding-top: 5.4rem;
+	padding: 5.4rem 0 2rem;
 	display: flex;
 	gap: .8rem;
 	overflow-x: scroll;
