@@ -339,6 +339,14 @@ a {
 	background-color: var(--bitcoin-orange);
 }
 
+.planes__titlefloat--blue {
+	background-color: #21b8e9;
+}
+
+.planes__titlefloat--green {
+	background-color: #2eb63b;
+}
+
 .planes__subtitle {
 	margin-bottom: .8rem;
 	color: #000;
@@ -383,6 +391,14 @@ a {
 	line-height: 1.8rem;
 	color: var(--warm-black);
 	background-color: var(--just-white);
+}
+
+.planes__buttom--blue {
+	border: .2rem solid #21b8e9;
+}
+
+.planes__buttom--green {
+	border: .2rem solid #2eb63b;
 }
 
 .planes__iconTwo {
