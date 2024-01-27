@@ -5,3 +5,12 @@
 .comodin__title {
     font-size: 8rem;
 }
+
+.planes__slider {
+    max-width: 80rem;
+}
+
+.planes__plan {
+    width: 25rem;
+    padding: 6.1rem 1.6rem 6rem;
+}
