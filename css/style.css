@@ -66,7 +66,7 @@ a {
 
 .title {
 	text-align: center;
-	margin-bottom: 1rem;
+	margin-bottom: 2.4rem;
 	font-size: var(--font-size-title);
 	font-weight: var(--font-weight-title);
 	line-height: var(--line-height-title);
@@ -219,4 +219,58 @@ a {
 	line-height: 1.4rem;
 	color: var(--warm-black);
 	background-color: var(--soft-orange);
+}
+
+/* SERVICIOS */
+
+.servicios {
+	padding: 6.4rem 0 4.6rem;
+	background-color: var(--black);
+}
+
+.servicios__content {
+	max-width: 38.2rem;
+	margin-bottom: 3.2rem;
+}
+
+.servicios__title {
+	color: var(--just-white);
+}
+
+.servicios__text {
+	color: #808080;
+}
+
+.servicios__grid {
+	max-width: 60rem;
+	display: grid;
+	gap: 1.6rem;
+}
+
+.servicios__servicio {
+	padding: 1.6rem 2rem;
+	border-radius: .4rem;
+	background-color: var(--warm-black);
+	box-shadow: 0 0 .8rem 0 rgba(0, 0, 0, 0.16);
+}
+
+.servicios__logo {
+	width: 2.4rem;
+	height: 2.4rem;
+	margin-bottom: 1rem;
+}
+
+.servicios__subtitle {
+	font-size: 1.8rem;
+	line-height: 1.8rem;
+	font-weight: 700;
+	color: var(--just-white);
+	margin-bottom: 1rem;
+}
+
+.servicios__copy {
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+	font-weight: 500;
+	color: #808080;
 }
