@@ -1,0 +1,72 @@
+:root {
+    --font-size-title: 4rem;
+    --line-height-title: 4.8rem;
+
+    --font-size-text: 2rem;
+    --line-height-text: 2.4rem;
+
+}
+
+/* HEADER */
+
+.header {
+    padding: 10.2rem 0 10.2rem;
+}
+
+.header__container {
+    max-width: 46.4rem;
+}
+
+.header__title {
+    margin-bottom: 3.2rem;
+}
+
+.header__button {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 700;
+}
+
+/* STATUS */
+
+.status {
+    padding: 7.5rem 0 10rem;
+}
+
+.stattus__content,
+.servicios__content {
+    max-width: 46.6rem;
+}
+
+/* SERVICIOS */
+
+.servicios {
+    padding: 6.4rem 0 6.4rem;
+}
+
+.servicios__grid {
+    max-width: unset;
+    max-width: 100rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* COMODIN */
+
+.comodin {
+    padding-top: 6.4rem;
+    display: grid;
+    place-items: center;
+    background-image: url(../assets/img/bitcoinbaby.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/* PLANES */
+
+.planes__slider {
+    max-width: 60rem;
+    display: flex;
+    gap: 1.8rem;
+    overflow-x: unset;
+    scroll-snap-type: unset;
+}
