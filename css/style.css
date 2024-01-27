@@ -8,4 +8,44 @@
 	--grey: #bababa;
 	--off-white: #faf8f7;
 	--just-white: #fff;
+
+	--primary-font: 'DM Sans', sans-serif;
+	--secondary-font: 'Inter', sans-serif;
+
+	--font-size-title: 2.4rem;
+	--line-height-title: 2.6rem;
+	--font-weight-title: 500;
+
+	--font-size-text: 1.4rem;
+	--line-height-text: 1.8rem;
+	--font-weight-text: 500;
+
+}
+
+body {
+	min-width: 32rem;
+	font-size: 62.5%;
+	font-family: var(--primary-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
 }
