@@ -305,6 +305,7 @@ a {
 
 .planes__slider {
 	width: 100%;
+	max-width: 50rem;
 	padding: 5.4rem 0 2rem;
 	display: flex;
 	gap: .8rem;
