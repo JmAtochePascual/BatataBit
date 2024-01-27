@@ -274,3 +274,15 @@ a {
 	font-weight: 500;
 	color: #808080;
 }
+
+/* COMODIN */
+
+.comodin {
+	height: 38.7rem;
+	padding-top: 6.4rem;
+	background-image: url(../assets/img/bitcoinbaby.jpg);
+}
+
+.comodin__title {
+	color: var(--just-white);
+}
