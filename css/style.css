@@ -49,3 +49,22 @@ li {
 a {
 	text-decoration: none;
 }
+
+/* UTILIDADES */
+
+.title {
+	margin-bottom: 1rem;
+	font-size: var(--font-size-title);
+	font-weight: var(--font-weight-title);
+	line-height: var(--line-height-title);
+}
+
+.text {
+	font-size: var(--font-size-text);
+	font-weight: var(--font-weight-text);
+	line-height: var(--line-height-text);
+}
+
+.container {
+	width: 95%;
+}
