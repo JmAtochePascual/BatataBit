@@ -37,7 +37,7 @@ body {
 	min-width: 32rem;
 	font-size: 1.6rem;
 	font-family: var(--primary-font);
-	background-color: var(--just-white);
+	background-color: var(--off-white);
 }
 
 h1,
@@ -70,6 +70,7 @@ a {
 	font-size: var(--font-size-title);
 	font-weight: var(--font-weight-title);
 	line-height: var(--line-height-title);
+	color: var(--warm-black);
 }
 
 .text {
@@ -77,11 +78,15 @@ a {
 	font-size: var(--font-size-text);
 	font-weight: var(--font-weight-text);
 	line-height: var(--line-height-text);
+	color: var(--grey);
 }
 
 .container {
 	width: 95%;
 	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 /* HEADER */
@@ -129,4 +134,88 @@ a {
 	background-image: url(../assets/icons/down-arrow.svg);
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+/* STATUS */
+
+.status {
+	padding: 7rem 0;
+}
+
+.status__img {
+	width: 19.5rem;
+	margin: 0 auto 4.4rem;
+}
+
+.stattus__content {
+	margin-bottom: 4.8rem;
+}
+
+.status__table {
+	margin-bottom: 1.6rem;
+}
+
+.status__name-table {
+	font-size: 1.8rem;
+	font-weight: 700;
+	line-height: 2.3rem;
+	color: #FF9536;
+}
+
+.status__td {
+	padding: 1rem 1.2rem;
+	background-color: white;
+}
+
+.status__td--top-left {
+	border-top-left-radius: .8rem;
+}
+
+.status__td--top-right {
+	border-top-right-radius: .8rem;
+}
+
+.status__td--botton-left {
+	border-bottom-left-radius: .8rem;
+}
+
+.status__td--botton-right {
+	border-bottom-right-radius: .8rem;
+}
+
+.stattus__currency {
+	font-family: var(--secondary-font);
+	font-weight: var(--font-weight-text);
+	line-height: 2rem;
+	color: #B5B0AC;
+}
+
+.status__price {
+	font-family: var(--secondary-font);
+	font-size: 1.4rem;
+	line-height: 1.6rem;
+	color: #757575;
+}
+
+.status__i {
+	width: 1.2rem;
+	height: 1.2rem;
+	margin-left: 1rem;
+	display: inline-block;
+	background-image: url(../assets/icons/trending-down.svg);
+	background-repeat: no-repeat;
+}
+
+.status__i--up {
+	background-image: url(../assets/icons/trending-up.svg);
+}
+
+.status__button {
+	padding: .8rem;
+	border-radius: .8rem;
+	font-size: 1.2rem;
+	font-weight: 400;
+	line-height: 1.4rem;
+	color: var(--warm-black);
+	background-color: var(--soft-orange);
 }
