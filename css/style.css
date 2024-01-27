@@ -281,6 +281,8 @@ a {
 	height: 38.7rem;
 	padding-top: 6.4rem;
 	background-image: url(../assets/img/bitcoinbaby.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .comodin__title {
