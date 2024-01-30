@@ -17,6 +17,10 @@
     max-width: 46.4rem;
 }
 
+.header__logo {
+    margin-bottom: 4.4rem;
+}
+
 .header__title {
     margin-bottom: 3.2rem;
 }
