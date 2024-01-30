@@ -103,6 +103,10 @@ a {
 	max-width: 38.2rem;
 }
 
+.header__logo {
+	margin-bottom: 3.6rem;
+}
+
 .header__title {
 	color: var(--just-white);
 }
