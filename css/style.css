@@ -1,3 +1,59 @@
+@font-face {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url("../assets/Fonts/DM_Sans/DMSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 600;
+	src: url("../assets/Fonts/DM_Sans/DMSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: url("../assets/Fonts/DM_Sans/DMSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 900;
+	src: url("../assets/Fonts/DM_Sans/DMSans-Black.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	src: url("../assets/Fonts/Inter/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	src: url("../assets/Fonts/Inter/Inter-Medium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	src: url("../assets/Fonts/Inter/Inter-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 900;
+	src: url("../assets/Fonts/Inter/Inter-Black.ttf") format("truetype");
+}
+
 :root {
 	--bitcoin-orange: #f7931a;
 	--soft-orange: #ffe9d5;
@@ -20,7 +76,6 @@
 	--font-size-text: 1.4rem;
 	--line-height-text: 1.8rem;
 	--font-weight-text: 500;
-
 }
 
 * {
@@ -284,9 +339,21 @@ a {
 .comodin {
 	height: 38.7rem;
 	padding-top: 6.4rem;
-	background-image: url(../assets/img/bitcoinbaby.jpg);
+	background-image: url("../assets/img/bitcoinbaby.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+@supports (background-image: url("../assets/img/bitcoinbaby.avif")) {
+	.comodin {
+		background-image: url("../assets/img/bitcoinbaby.avif");
+	}
+}
+
+@supports (background-image: url("../assets/img/bitcoinbaby.webp")) {
+	.comodin {
+		background-image: url0("../assets/img/bitcoinbaby.webp");
+	}
 }
 
 .comodin__title {

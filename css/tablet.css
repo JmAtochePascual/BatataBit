@@ -60,9 +60,21 @@
     padding-top: 6.4rem;
     display: grid;
     place-items: center;
-    background-image: url(../assets/img/bitcoinbaby2x.jpg);
+    background-image: url("../assets/img/bitcoinbaby2x.jpg");
     background-position: center;
     background-size: cover;
+}
+
+@supports (background-image: url("../assets/img/bitcoinbaby2x.avif")) {
+    .comodin {
+        background-image: url("../assets/img/bitcoinbaby2x.avif");
+    }
+}
+
+@supports (background-image: url("../assets/img/bitcoinbaby2x.webp")) {
+    .comodin {
+        background-image: url0("../assets/img/bitcoinbaby2x.webp");
+    }
 }
 
 /* PLANES */
