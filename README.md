@@ -61,6 +61,6 @@ Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
 ## 🌐Ver Proyecto en la WEB
 
-[ver Proyecto](https://jmatochepacual.github.io/BatataBit/)
+[ver Proyecto](https://jmatochepascual.github.io/BatataBit/)
 
 © 2024 BatataBit. Todos los derechos reservados.
