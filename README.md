@@ -4,44 +4,39 @@ BatataBit es una innovadora plataforma web especializada en el intercambio de cr
 
 La plataforma destaca por su diseño moderno y accesible, ofreciendo una experiencia fluida tanto para principiantes como para usuarios experimentados. Además de facilitar la compra y venta de criptomonedas, BatataBit brinda herramientas analíticas y recursos educativos para comprender mejor el ecosistema de las criptomonedas.
 
+## Características
+
+- Diseño moderno y accesible que facilita la navegación y el uso de la plataforma.
+- Actualización constante de tasas de cambio y tendencias del mercado.
+- Análisis detallado de las principales criptomonedas del mundo.
+- Información sobre el ecosistema de las criptomonedas y las principales criptomonedas.
+- Atención al cliente disponible para resolver dudas y problemas.
+
 ## Tecnologías
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-- **HTML5**: Lenguaje de marcado para estructurar el contenido de la página.
-- **CSS3**: Lenguaje de estilos utilizado para definir la presentación visual y el diseño responsivo.
-- **Metodología BEM**: Nomenclatura de clases organizada y mantenible.
-- **Mobile First**: Desarrollo orientado primero a dispositivos móviles.
-- **Media Queries**: Diseño adaptativo para diferentes tamaños de pantalla.
-- **Optimización SEO**: Metadatos y estructura optimizada para buscadores.
-- **Favicon**: Conjunto completo de iconos para diferentes dispositivos.
+- **HTML:** Lenguaje de marcado para estructurar el contenido de la página.
+- **CSS:** Lenguaje de estilos utilizado para definir la presentación visual y el diseño responsivo.
+- **JavaScript:** Lenguaje de programación que permite agregar interactividad y dinamismo.
 
-## Estructura
+## Estructura del proyecto
 
-- **css/**: Carpeta que contiene archivos CSS para diferentes tamaños de pantalla (style.css, tablet.css, desktop.css).
-- **assets/**: Carpeta principal de recursos
-  - **img/**: Imágenes del sitio como logo y Bitcoin.
-  - **favicon/**: Íconos favicon para diferentes dispositivos y plataformas.
-- **index.html**: Página principal de BatataBit con información sobre criptomonedas.
-
-## Instalación
-
-> Para trabajar con este proyecto, necesitarás tener instalados los siguientes plugins en tu editor de código:
->
-> - **Live Sass Compiler**: Para compilar automáticamente los archivos SCSS a CSS
-> - **Sass**: Para el soporte de la sintaxis Sass/SCSS
-
-Una vez instalados los plugins, asegúrate de:
-
-1. Tener habilitado el Live Sass Compiler.
-
-2. Configurar la ruta de salida del CSS compilado a la carpeta `/css`.
-
-3. Guardar los cambios para activar la compilación automática.
+- **src:** Directorio que contiene el código fuente del proyecto.
+  - **css:** Directorio que contiene los archivos de estilos.
+  - **img:** Directorio que contiene las imágenes del proyecto.
+  - **icons:** Directorio que contiene los archivos de iconos.
+  - **js:** Directorio que contiene los archivos de JavaScript.
+  - **favicon:** Directorio que contiene los archivos del favicon.
+  - **Fonts:** Directorio que contiene los archivos de fuentes.
+- **index.html:** Archivo principal que contiene el código HTML del proyecto
+- **README.md:** Archivo que contiene la documentación del proyecto.
 
 ## Uso
+
+> Nota: No requiere instalación de dependencias. Solo abra el archivo `index.html` en un navegador.
 
 Para visualizar el proyecto localmente, sigue estos pasos:
 
@@ -57,9 +52,7 @@ git clone https://github.com/JmAtochePascual/BatataBit.git
 cd BatataBit
 ```
 
-3. Abre el archivo `index.html` en tu navegador web preferido
-
-4. Opcionalmente, puedes usar un servidor local como Live Server para una mejor experiencia
+3. Abre el archivo `index.html` en tu navegador web preferido.
 
 ## Contribución
 
@@ -85,4 +78,4 @@ Si deseas contribuir al proyecto, por favor sigue estos pasos en orden:
 
 Este proyecto se encuentra disponible bajo la licencia MIT. Puedes consultar los términos completos [aquí](https://opensource.org/licenses/MIT).
 
-Desarrollado con 💚 por JMCode | © 2025 - Transformando ideas en soluciones digitales
+<p align="center" style="margin-top: 120px;">Desarrollado con 🤍 por JMCode | Transformando ideas en soluciones digitales</p>
