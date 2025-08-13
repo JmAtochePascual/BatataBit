@@ -19,7 +19,6 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="./src/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="./src/favicon/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="./src/favicon/favicon-16x16.png">
-	<link rel="manifest" href="./src/favicon/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
@@ -48,6 +47,9 @@
 	<link rel="stylesheet" href="./src/css/style.css">
 	<link rel="stylesheet" href="./src/css/tablet.css" media="screen and (min-width:768px)">
 	<link rel="stylesheet" href="./src/css/desktop.css" media="screen and (min-width:1200px)">
+
+	<!-- Js -->
+	<script src="./src/js/app.js" defer></script>
 
 	<title>BatataBit</title>
 </head>
@@ -110,7 +112,7 @@
 			</div>
 		</section>
 
-		<section class="servicios">
+		<section class="servicios section-animate">
 			<div class="container">
 				<div class="servicios__content">
 					<h2 class="title servicios__title">Te ayudamos a tomar la mejor decisión, siempre.</h2>
@@ -118,7 +120,7 @@
 				</div>
 
 				<div class="servicios__grid">
-					<article class="servicios__servicio">
+					<article class="servicios__servicio" data-anime="animate">
 						<figure class="servicios__logo">
 							<img src="./src/icons/clock.svg" alt="logo de reloj" width="24" height="24">
 						</figure>
@@ -127,7 +129,7 @@
 							determinan
 							el comportamiento.</p>
 					</article>
-					<article class="servicios__servicio">
+					<article class="servicios__servicio" data-anime="animate">
 						<figure class="servicios__logo">
 							<img src="./src/icons/eye.svg" alt="logo de ojo" width="24" height="24">
 						</figure>
@@ -136,7 +138,7 @@
 							costo real de
 							lo que estás adquiriendo.</p>
 					</article>
-					<article class="servicios__servicio">
+					<article class="servicios__servicio" data-anime="animate">
 						<figure class="servicios__logo">
 							<img src="./src/icons/dollar-sign.svg" alt="logo de dollar" width="24" height="24">
 						</figure>
@@ -145,7 +147,7 @@
 							el mercado
 							actual.</p>
 					</article>
-					<article class="servicios__servicio">
+					<article class="servicios__servicio" data-anime="animate">
 						<figure class="servicios__logo">
 							<img src="./src/icons/check-circle.svg" alt="logo de check" width="24" height="24">
 						</figure>
